@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: lightgrey;
 }
@@ -9,7 +9,7 @@ header {
 }
 
 h1 {
-    margin:0
+    margin: 0;
     padding: 15px;
     color: darkgreen;
 }
@@ -33,7 +33,7 @@ nav a {
 }
 
 .hero img{
-    width:100%;
+    width: 100%;
     height: 260px;
     object-fit: cover;
 }
@@ -75,14 +75,14 @@ nav a {
 }
 
 .gallery img{
-    width:220px;
-    height:140px;
+    width: 220px;
+    height: 140px;
     object-fit: cover;
 }
 
 footer {
     background: grey;
-    color:white
+    color: white;
     text-align: center;
     padding: 15px;
 }
