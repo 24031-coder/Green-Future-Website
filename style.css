@@ -68,7 +68,7 @@ nav a {
     color: white;
 }
 
-.gallery article {
+.gallery div {
     display: inline-block;
     width: 220px;
     margin: 10px;
@@ -85,4 +85,54 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+.tips {
+    text-align: center;
+    padding: 20px;
+}
+
+.tip {
+    display: inline-block;
+    width: 220px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.tip img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.contact {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: darkgreen;
 }
