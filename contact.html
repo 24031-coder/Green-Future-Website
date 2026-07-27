@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Future - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,37 +10,62 @@
 <body>
 
 <header>
-  <h1>Green Future</h1>
+   <div class="logo">
+    <img src="images/logo.png" alt="Logo">
+         <h1>Green Future</h1>
+  </div>
 
   <nav>
-    <a href="index.html">About Us</a>
-    <a href="tips.html">Tips</a>
-    <a href="contact.html" class="current">Contact</a>
+    <a href="index.html" class="about">About Us</a>
+    <a href="tips.htmll" class="tips">Tips</a>
+    <a href="contact.html" class="contact">Contact</a>
   </nav>
 </header>
 
-<main>
-  <h2>Contact Us</h2>
+<hr>
 
-  <div class="contact">
-    <form action="#">
-      <label for="name">Full Name</label><br>
-      <input type="text" id="name" name="name" placeholder="Your name..."><br><br>
+<img src="images/banner.jpg" class="banner" alt="Forest banner">
 
-      <label for="email">Email</label><br>
-      <input type="email" id="email" name="email" placeholder="Your email..."><br><br>
+<section class="contact-page">
 
-      <label for="message">Message</label><br>
-      <textarea id="message" name="message" rows="6" placeholder="Write your message..."></textarea><br><br>
+  <div class="left-column">
+    <h2>Contact Us</h2>
 
-      <input type="submit" value="Submit">
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Enter your name">
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email">
+
+      <label>Message</label>
+
+      <textarea placeholder="Write your message"></textarea>
+
+      <button type="submit">Send Message</button>
     </form>
   </div>
-</main>
+
+  <div class="right-column">
+    <h2>Getting in Touch</h2>
+    <p>We'd love to hear from you! If you have any questions, ideas or suggestions about helping the environment, please fill in the contact form.</p>
+
+    <p>Whether you want to learn more about recycling, reducing waste or protecting nature, our team is happy to help.</p>
+
+    <p>Every message makes a difference. Together we can create a cleaner and greener future.</p>
+
+    <img src="images/earth.jpg" class="earth" alt="Earth">
+  </div>
+</section>
 
 <footer>
   <p>Green Future 2026</p>
-</footer>
 
+  <div class="social">
+    <img src="images/instagram.jpg" alt="Instagram">
+    <img src="images/facebook.jpg" alt="Facebook">
+    <img src="images/youtube.jpg" alt="Youtube">
+  </div>
+</footer>
 </body>
 </html>

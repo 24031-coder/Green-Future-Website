@@ -2,67 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    #This is to make it so it can fit on any device screen.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Future</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 <header>
-    <h1>Green Future</h1>
+  <div class="logo">
+    <img src="images/logo.png" alt="Logo">
+         <h1>Green Future</h1>
+  </div>
 
-    <nav>
-     <a href="index.html" class="current">About Us</a>
-     <a href="tips.html">Tips</a>
-     <a href="contact.html">Contact</a>
-    </nav>
-
+  <nav>
+    <a href="index.html" class="about">About Us</a>
+    <a href="tips.htmll" class="tips">Tips</a>
+    <a href="contact.html" class="contact">Contact</a>
+  </nav>
 </header>
 
-<main>
-    <div class="hero">
-        <img src="images/forest.jpg" alt="Forest">
-    </div>
+<hr>
 
-    <div class="info">
-        <div class="box green">
-            <h2>Protect Nature</h2>
-            <p>Looking after our forests and wildlife helps keep New Zealand healthy for future generations</p>
-        </div>
-        <div class="box blue">
-            <h2>Save Water</h2>
-            <p>Turning taps off when they are not in use and reducing waste helps protect our water sources, rivers and lakes</p>
-        </div>
+#Hero image
+<section class="hero">
+  <img src="images/forest.jpg" alt="Forest">
+</section>
 
-        <div class="box orange">
-            <p>Recycling and reusing items keeps rubbish out of landfill</p>
-        </div>
+#Information boxes
+<section class="cards">
 
-        <div class="box darkgreen">
-            <p>Every small action helps protect the environment and supports kaitiakitanga </p>
-        </div>
-    </div>
+  <div class="card green">
+    <h3>Reduce</h3>
+    <p>Reduce waste by buying only what you need</p>
+  </div>
 
-    <div class="gallery">
-        <div>
-            <img src="images/plant.jpg" alt="Plant">
-            <p>Planting trees improves habitat and creates new homes for our wildlife</p>
-        </div>
+  <div class="card blue">
+    <h3>Reuse</h3>
+    <p>Reuse items whenever possible instead of throwing them away</p>
+  </div>
 
-        <div>
-            <img src="images/recycle.jpg" alt="Recycling">
-            <p>Sorting rubbish correctly makes recycling more effective</p>
-        </div>
+  <div class="card orange">
+    <h3>Recycle</h3>
+    <p>Recycle paper, plastic, glass and metal correctly</p>
+  </div>
 
-        <div>
-            <img src="images/beach.jpg" alt="Beach">
-            <p>Keeping our beaches clean protects the marine life in our waters</p>
-        </div>
-    </div>
-</main>
+  <div class="card darkgreen">
+    <h3>Protect Nature</h3>
+    <p>Plant trees and help keep the environment clean</p>
+  </div>
+
+</section>
+
+#Images
+<section class="gallery">
+  <div class="item">
+    <img src="images/tree.jpg" alt="Tree">
+    <p>Plant more trees</p>
+  </div>
+
+  <div class="item">
+    <img src="images/recycle.jpg" alt="Recycle">
+    <p>Recycle every day</p>
+  </div>
+
+  <div class="item">
+    <img src="images/beach.jpg" alt="Beach">
+    <p>Keep beaches clean</p>
+  </div>
+</section>
 
 <footer>
-    <p>2026 Green Future</p>
+  <p>Green Future 2026</p>
 
+  <div class="social">
+    <img src="images/instagram.jpg" alt="Instagram">
+    <img src="images/facebook.jpg" alt="Facebook">
+    <img src="images/youtube.jpg" alt="Youtube">
+  </div>
 </footer>
+
 </body>
 </html>

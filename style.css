@@ -1,138 +1,56 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: lightgrey;
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-header {
-    background-color: yellowgreen;
+body{
+    font-family:Arial, sans-serif;
+    background:#d9e4d5;
 }
 
-h1 {
-    margin: 0;
-    padding: 15px;
-    color: darkgreen;
+img{
+    max-width:100%;
+    display:block;
 }
 
-nav {
-    background-color: olivedrab;
-    text-align: center;
-    padding: 10px;
+hr{
+    border:2px solid purple;
 }
 
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 18px;
-    margin: 5px;
+header{
+    background:#b8c44b;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    flex-wrap:wrap;
 }
 
-.current {
-    background-color: green;
+.logo{
+    display-flex;
+    align-items:center;
 }
 
-.hero img{
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
+.logo img{
+    width:45px;
+    margin-right:10px;
 }
 
-.info {
-    text-align: center;
-    padding: 20px;
+.logo h1{
+    color:#4b5b2a
+    font-size:28px
 }
 
-.box {
-    display: inline-block;
-    width: 180px;
-    margin: 10px;
-    padding: 15px;
-    vertical-align: top;
+nav{
+    display:flex
+    gap:20px
+    flex-wrap:wrap;
 }
 
-.green {
-    background: yellowgreen;
-}
-
-.blue {
-    background: deepskyblue;
-}
-
-.orange {
-    background: orange;
-}
-
-.darkgreen {
-    background: darkgreen;
-    color: white;
-}
-
-.gallery div {
-    display: inline-block;
-    width: 220px;
-    margin: 10px;
-}
-
-.gallery img{
-    width: 220px;
-    height: 140px;
-    object-fit: cover;
-}
-
-footer {
-    background: grey;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-.tips {
-    text-align: center;
-    padding: 20px;
-}
-
-.tip {
-    display: inline-block;
-    width: 220px;
-    margin: 10px;
-    vertical-align: top;
-}
-
-.tip img {
-    width: 220px;
-    height: 140px;
-    object-fit: cover;
-}
-
-.contact {
-    width: 400px;
-    margin: auto;
-    padding: 20px;
-}
-
-label {
-    font-weight: bold;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid grey;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    background-color: green;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-}
-
-input[type=submit]:hover {
-    background-color: darkgreen;
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    padding:10px 20px;p
 }
