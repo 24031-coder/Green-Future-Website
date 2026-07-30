@@ -1,6 +1,6 @@
 /*GENERAL*/
 
-{
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -8,7 +8,7 @@
 
 body{
     font-family:Arial, sans-serif;
-    background:#d9e4d5;
+    background:#d9e4d5;S
 }
 
 img{
@@ -30,8 +30,8 @@ header{
 }
 
 .logo{
-    display-flex;
-    align-items:center;
+    display: flex;
+    align-items: center;
 }
 
 .logo img{
@@ -58,7 +58,7 @@ nav a{
 }
 
 .about{
-    background#6d8b3b;
+    background: #6d8b3b;
 }
 
 .tips{
@@ -78,8 +78,8 @@ nav a{
 }
 
 .cards{
-    display:flex;
-    justify-content:center,
+    display: flex;
+    justify-content:center;
     flex-wrap:wrap;
     gap: 20px;
     padding: 40px;
@@ -108,6 +108,23 @@ background: #b8c44b;
     background:#6d8b3b;
 }
 
+.kaitiakitanga{
+    background: white;
+    margin: 30px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.kaitiakitanga h2{
+    color: #4b5b2a;
+    margin-bottom: 15px;
+}
+
+.kaitiakitanga p{
+    line-height: 1.6;
+}
+
 .gallery{
     display: flex;
     justify-content: center;
@@ -127,7 +144,7 @@ background: #b8c44b;
     object-fit: cover;
 }
 
-/ Tips Page /
+/* Tips Page */
 .tips-page{
     display: flex;
     padding: 40px;
@@ -146,6 +163,8 @@ background: #b8c44b;
     background: #777;
     display: flex;
     justify-content:center;
+    align-items: center;
+    font-size: 28px;
     flex-wrap:wrap;
     gap: 50px;
     margin-bottom: 50px;
@@ -163,7 +182,7 @@ background: #b8c44b;
     margin-bottom: 50px;
 }
 
-.tip-card:{
+.tip-card{
     width: 220px;
     text-align:center;
 }
@@ -191,7 +210,7 @@ background: #b8c44b;
     width: 120px;
 }
 
-/ Contact Page/
+/* Contact Page */
 .banner{
     width: 100%;
     height: 220px;
@@ -210,19 +229,23 @@ background: #b8c44b;
     min-width: 300px;
 }
 
-.right column{
+.right-column{
     flex: 1;
     min-width:300px;
 }
 
 .left-column h2,
-.right column h2{
+.right-column h2{
     margin-bottom:20px;
     padding: 20px;
 }
 
+.right-column h2{
+    color: #4b5b2a;
+}
+
 form{
-    background#d9d9d9;
+    background: #d9d9d9;
     padding: 20px;
 }
 
@@ -255,7 +278,8 @@ button{
     cursor: pointer;
 }
 
-button: hover{
+/* USED TO MAKE A COLOR WHEN CURSOR IS ABOVE THE BUTTON*/
+button:hover{
     background: #56702d;
 }
 
@@ -268,7 +292,7 @@ button: hover{
 footer{
     background: #666;
     color: white;
-    displa; flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -286,6 +310,7 @@ footer{
 
 /* RESPONSIVE */
 
+/* MAKES IT SO IT FITS ON ANY DEVICE SIZE*/
 @media screen and (max-width:768px){
 
 header{
